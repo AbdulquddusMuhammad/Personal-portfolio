@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeQuddus Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/4121ffb806.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4121ffb806.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logoReal.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hello I am <span>Abdulquddus</span> <br />
+            from Nigeria
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------About----------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/secondTest.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Abdulquddus</h1>
+            <p>Abdulquddus is a multi-talented professional in the field of web development. With a passion for creating innovative digital solutions, Abdulquddus has established himself as a skilled web developer, proficient in various programming languages like HTML, CSS and Javascript.</p>
+            <div class="tab-title">
+              <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+              <div class="tab-links" onclick="opentab('experience')">Projects</div>
+              <div class="tab-links" onclick="opentab('education')">Education</div>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML5</span><br />Proficient in writing clean and semantic markup using HTML5.</li>
+                <li><span>CSS3</span><br />Solid understanding of CSS3 for styling and layout purposes</li>
+                <li><span>Javascript</span><br />Familiarity with JavaScript fundamentals and basic interactions.</li>
+                <li><span>UI/UX</span><br />Basic understanding of user interface and user experience design principles.</li>
+                <li><span>Bootstrap</span><br />In my current role as a Front-End Developer, I leverage Bootstrap’s grid system and components to efficiently build scalable layouts</li>
+                <li><span>React.js</span><br />My expertise lies in developing reusable components, managing application state with Redux and Context API, and leveraging React Hooks for efficient state and side effect management.</li>
+                <li>
+                  <span>Tailwind CSS</span><br />
+                  Designing modern, responsive UIs with Tailwind CSS—focusing on clean utility-first styling, flexibility, and rapid development.
+                </li>
+                <li>
+                  <span>Python</span><br />
+                  Building robust, scalable solutions in Python—emphasizing clarity, automation, and data-driven functionality across diverse domains.
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Project 1</span><br /><a class="projects" href="https://abdulquddusmuhammad.github.io/HB-Sure-Premium/E-Commerce/index.html">E-Commerce Website</a></li>
+                <li><span>Project 2</span><br /><a class="projects" href="https://abdulquddusmuhammad.github.io/movies_recommender/">Movies Recommender App</a></li>
+                <li>
+                  <span>Project 3</span><br />
+                  <a class="projects" href="https://abdulquddusmuhammad.github.io/countriesInfo/"> Country Info Explorer (React, Tailwind CSS, API) </a>
+                </li>
+                <li>
+                  <span>Project 4</span><br />
+                  <a class="projects" href="https://abdulquddusmuhammad.github.io/storagePlan/"> Multi-Step Storage Plan Form (React, Tailwind CSS) </a>
+                </li>
+                <li>
+                  <span>Project 5</span><br />
+                  <a class="projects" href="https://abdulquddusmuhammad.github.io/ticket-app/"> Conference Ticket Generator (React, Tailwind CSS) </a>
+                </li>
+
+                <li><span>Project 3</span><br /><a class="projects" href="https://abdulquddusmuhammad.github.io/Gamefied-Quiz-English/">Gamified Quiz App</a></li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Udemy</span><br />2020<br />Zero to Mastery Front end developer Course</li>
+                <!--                             <li><span>Federal University of Technology</span><br>2020<br>Computer Science</li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------services-------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
+            <p class="services-info">I specialize in creating clean and responsive websites that provide a seamless user experience. With a passion for combining aesthetics and functionality, I strive to deliver high-quality code and visually appealing designs.</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS</h2>
+            <p class="services-info">I have a passion for creating visually stunning and engaging websites by leveraging the power of CSS. With a strong eye for design and attention to detail, I aim to craft seamless user experiences that leave a lasting impression.</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-brands fa-square-js"></i>
+            <h2>Javascript</h2>
+            <p class="services-info">I enjoy building interactive and dynamic websites that provide a seamless user experience. With a solid foundation in JavaScript and its libraries, I strive to create efficient and robust code that brings ideas to life.</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-solid fa-code"></i>
+            <h2>UI/UX Design</h2>
+            <p class="services-info">I specialize in creating intuitive and visually appealing interfaces that provide exceptional user experiences. With a deep understanding of user psychology and design principles, I strive to deliver engaging and delightful digital experiences.</p>
+            <!-- <a href="https://abduldattijo.contently.com/?public_only=true">Learn more</a> -->
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-brands fa-bootstrap"></i>
+            <h2>Bootstrap</h2>
+            <p class="services-info">In my current role as a Front-End Developer, I leverage Bootstrap’s grid system and components to efficiently build scalable layouts. I have customized Bootstrap extensively using Sass, enabling unique and branded designs while maintaining consistency.</p>
+            <!-- <a href="https://abduldattijo.contently.com/?public_only=true">Learn more</a> -->
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-brands fa-react"></i>
+            <h2>React Js</h2>
+            <p class="services-info">My expertise lies in developing reusable components, managing application state with Redux and Context API, and leveraging React Hooks for efficient state and side effect management. I've also worked extensively with React Router for SPA navigation.</p>
+            <!-- <a href="https://abduldattijo.contently.com/?public_only=true">Learn more</a> -->
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-solid fa-palette"></i>
+            <h2>Tailwind CSS</h2>
+            <p class="services-info">I specialize in utilizing Tailwind CSS to develop responsive, clean, and visually appealing interfaces with a utility-first approach. My focus lies in accelerating front-end development while maintaining design consistency and performance. By streamlining UI workflows and minimizing custom CSS, I craft scalable and maintainable interfaces that adapt beautifully across devices.</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+
+          <div class="specific-service">
+            <i class="fa-solid fa-x close-service"></i>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python</h2>
+            <p class="services-info">I harness the power of Python to build versatile and efficient software—from web applications to automation and data analysis. With a strong grasp of clean code principles and popular frameworks, I create solutions that emphasize readability, scalability, and real-world impact. My work in Python focuses on bridging functionality with simplicity to solve complex problems effectively.</p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------Certificates-------------------------- -->
+    <div id="certificates">
+      <div class="container">
+        <h1 class="sub-title">My Certificiates</h1>
+        <div class="services-list certificates-list">
+          <div class="specific-service certificate-service">
+            <a target="_blank" href="./certificates/front end.jpg">
+              <img src="./certificates/front end.jpg" alt="" />
+            </a>
+          </div>
+          <div class="specific-service certificate-service">
+            <a target="_blank" href="./certificates/html.jpg">
+              <img src="./certificates/html.jpg" alt="" />
+            </a>
+          </div>
+          <div class="specific-service certificate-service">
+            <a target="_blank" href="./certificates/css.jpg">
+              <img src="./certificates/css.jpg" alt="" />
+            </a>
+          </div>
+          <div class="specific-service certificate-service">
+            <a target="_blank" href="./certificates/javascript.jpg">
+              <img src="./certificates/javascript.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------------------portfolio------------------------------------------------ -->
+    <!-- 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App Connects you to the talented people around the world, download it from playstore</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The App Connects you to the talented people around the world, download it from playstore</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.jpg" alt="">
+                    <div class="layer">
+                        <h3>My Personal blogging Website </h3>
+                        <p>Engaging tech articles, product reviews, coding insights, and trend updates for tech enthusiasts of all levels.</p>
+                        <a href="https://abduldattijo.contently.com/?public_only=true"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+        </div>
+        <a href="" class="btn">See more</a>
+    </div>
+</div> -->
+
+    <!-- -------------------------------------contacts------------------------------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> contact me at abdulquddusmuhammad588@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> phone no. +2348144160029</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <!-- <a href="images/my-cv.pdf" download  class="btn btn2">Download CV</a> -->
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="What is your name" />
+              <input type="email" name="Email" placeholder="What is your Email" required />
+              <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="confirmation"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright @ <span>CodeQuddus</span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+  </body>
+</html>
